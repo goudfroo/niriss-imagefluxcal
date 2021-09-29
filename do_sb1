@@ -1,0 +1,98 @@
+python getcircSB1.py  jw01094001001_01101_00001_nis_rate.fits 32. 32. f115w_sub64_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00002_nis_rate.fits 37. 37. f115w_sub64_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00003_nis_rate.fits 32. 32. f150w_sub64_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00004_nis_rate.fits 37. 37. f150w_sub64_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00005_nis_rate.fits 32. 32. f200w_sub64_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00006_nis_rate.fits 37. 37. f200w_sub64_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00007_nis_rate.fits 64. 64. f200w_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00008_nis_rate.fits 69. 69. f200w_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00009_nis_rate.fits 64. 64. f150w_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00010_nis_rate.fits 69. 69. f150w_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00011_nis_rate.fits 64. 64. f140m_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00012_nis_rate.fits 69. 69. f140m_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00013_nis_rate.fits 64. 64. f158m_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00014_nis_rate.fits 69. 69. f158m_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00015_nis_rate.fits 64. 64. f115w_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00016_nis_rate.fits 69. 69. f115w_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00017_nis_rate.fits 64. 64. f090w_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00018_nis_rate.fits 69. 69. f090w_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00019_nis_rate.fits 64. 64. f480m_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00020_nis_rate.fits 69. 69. f480m_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00021_nis_rate.fits 64. 64. f380m_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00022_nis_rate.fits 69. 69. f380m_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00023_nis_rate.fits 64. 64. f430m_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00024_nis_rate.fits 69. 69. f430m_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00025_nis_rate.fits 64. 64. f356w_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00026_nis_rate.fits 69. 69. f356w_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00027_nis_rate.fits 64. 64. f444w_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00028_nis_rate.fits 69. 69. f444w_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00029_nis_rate.fits 64. 64. f277w_sub128_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00030_nis_rate.fits 69. 69. f277w_sub128_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00031_nis_rate.fits 128. 128. f277w_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00032_nis_rate.fits 133. 133. f277w_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00033_nis_rate.fits 128. 128. f444w_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00034_nis_rate.fits 133. 133. f444w_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00035_nis_rate.fits 128. 128. f356w_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00036_nis_rate.fits 133. 133. f356w_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00037_nis_rate.fits 128. 128. f430m_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00038_nis_rate.fits 133. 133. f430m_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00039_nis_rate.fits 128. 128. f380m_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00040_nis_rate.fits 133. 133. f380m_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00041_nis_rate.fits 128. 128. f480m_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00042_nis_rate.fits 133. 133. f480m_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00043_nis_rate.fits 128. 128. f200w_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00044_nis_rate.fits 133. 133. f200w_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00045_nis_rate.fits 128. 128. f150w_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00046_nis_rate.fits 133. 133. f150w_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00047_nis_rate.fits 128. 128. f140m_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00048_nis_rate.fits 133. 133. f140m_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00049_nis_rate.fits 128. 128. f158m_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00050_nis_rate.fits 133. 133. f158m_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00051_nis_rate.fits 128. 128. f115w_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00052_nis_rate.fits 133. 133. f115w_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001001_01101_00053_nis_rate.fits 128. 128. f090w_sub256_1.sbtab
+python getcircSB1.py  jw01094001001_01101_00054_nis_rate.fits 133. 133. f090w_sub256_2.sbtab
+
+python getcircSB1.py  jw01094001002_01101_00055_nis_rate.fits 1024. 1024. f277w_full_1.sbtab
+python getcircSB1.py  jw01094001002_01101_00056_nis_rate.fits 1029. 1029. f277w_full_2.sbtab
+
+python getcircSB1.py  jw01094001002_01101_00057_nis_rate.fits 1024. 1024. f444w_full_1.sbtab
+python getcircSB1.py  jw01094001002_01101_00058_nis_rate.fits 1029. 1029. f444w_full_2.sbtab
+
+python getcircSB1.py  jw01094001002_01101_00059_nis_rate.fits 1024. 1024. f356w_full_1.sbtab
+python getcircSB1.py  jw01094001002_01101_00060_nis_rate.fits 1029. 1029. f356w_full_2.sbtab
+
+python getcircSB1.py  jw01094001002_01101_00061_nis_rate.fits 1024. 1024. f430m_full_1.sbtab
+python getcircSB1.py  jw01094001002_01101_00062_nis_rate.fits 1029. 1029. f430m_full_2.sbtab
+
+python getcircSB1.py  jw01094001002_01101_00063_nis_rate.fits 1024. 1024. f380m_full_1.sbtab
+python getcircSB1.py  jw01094001002_01101_00064_nis_rate.fits 1029. 1029. f380m_full_2.sbtab
+
+python getcircSB1.py  jw01094001002_01101_00065_nis_rate.fits 1024. 1024. f480m_full_1.sbtab
+python getcircSB1.py  jw01094001002_01101_00066_nis_rate.fits 1029. 1029. f480m_full_2.sbtab
