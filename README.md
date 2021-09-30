@@ -40,7 +40,7 @@ where parameter <output SB table> is defaulted to "getcircSB1.radtab", and optio
 python meanSB1.py <root name of SB tables> <outtab>
 ```
 
-where "outtab" is defaulted to "<root name of SB tables>.avsbtab". A wrapper shell script `do_meanSB1` is included in this repo to provide an example of running `meanSB1.py` on a set of data files. 
+where "outtab" is defaulted to "(root name of SB tables).avsbtab". A wrapper shell script `do_meanSB1` is included in this repo to provide an example of running `meanSB1.py` on a set of data files. 
 
 
 (5) `totfluxes.py` - This script combines all EE results for a given subarray (and a given flux standard star) and calculates a total integrated count rate for all NIRISS filters that were used for the measurements, using aperture corrections that were derived from WebbPSF PSFs (the EE tables for the latter are provided in this repo as files *psf.radtab). In the current version, these aperture corrections were only derived from measurement radii between 5-10 pixels from the center of the PSF. Depending on the results seen during commissioning, the aperture correction part of this script may need to be adjusted. The script is run as follows:
