@@ -151,12 +151,13 @@ def phot_circ(image, dqarr, x, y, outfile, radtab, radii, inttime, dqflag, skip,
         fluxes[i] = phot['flux_'+str(i)] / inttime
         fluxerrs[i] = phot['fluxerr_'+str(i)] / inttime
     rad_tab = QTable([nradii, radii_arcsec, fluxes, fluxerrs],
-                   names=('Radius', 'Rad_arcsec', 'CountRate', 'errCountRate'))
-    rad_tab['Radius'].info.format = '%6.0f'
+                     names=('Radius', 'Rad_arcsec', 'CountRate', 'errCountRate'),
+                     dtype=('int', 'float', 'float','float'))
+    rad_tab['Radius'].info.format = '6d'
     rad_tab['Rad_arcsec'].info.format = '10.4f'
-    rad_tab['CountRate'].info.format = '13.4e'
-    rad_tab['errCountRate'].info.format = '13.4e'
-    rad_tab.write(radtab, format='ascii', overwrite=True)
+    rad_tab['CountRate'].info.format = '12.4e'
+    rad_tab['errCountRate'].info.format = '12.4e'
+    rad_tab.write(radtab, format='ascii.fixed_width', delimiter=None, overwrite=True)
 
 #--------------------------------------------------------------------
 # Main script starts below

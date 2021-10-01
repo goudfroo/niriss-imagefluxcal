@@ -104,4 +104,4 @@ tab['avFlux'].info.format = '13.4e'
 tab['avFluxerr'].info.format = '13.4e'
 tab['n_Good'].info.format = '5.0f'
 
-tab.write(outtab, format='ascii', overwrite=True)
+tab.write(outtab, format='ascii.fixed_width', delimiter=None, overwrite=True)

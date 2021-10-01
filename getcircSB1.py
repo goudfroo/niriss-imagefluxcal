@@ -152,7 +152,7 @@ def sb_circ(image, dqarr, x, y, radtab, radii, inttime, dqflag, skip=5.,
     rad_tab['Radius'].info.format = '%6.0f'
     rad_tab['SB'].info.format = '11.5f'
     rad_tab['errSB'].info.format = '11.5f'
-    rad_tab.write(radtab, format='ascii', overwrite=True)
+    rad_tab.write(radtab, format='ascii.fixed_width', delimiter=None, overwrite=True)
 
 #--------------------------------------------------------------------
 # Main script starts below

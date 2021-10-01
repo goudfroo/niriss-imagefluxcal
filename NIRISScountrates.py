@@ -28,6 +28,8 @@ spfile = os.path.join(
     os.environ['PYSYN_CDBS'], 'calspec', infile)
 if os.path.isfile(spfile):
     sp = S.FileSpectrum(spfile)
+    hdr = fits.getheader(spfile, ext=0)
+    target = hdr['TARGETID']
 else:
     raise IOError('Failed because file {} does not exist.'.format(spfile))
 #
@@ -85,7 +87,7 @@ rate380 = obs_f380m.countrate()
 rate430 = obs_f430m.countrate()
 rate480 = obs_f480m.countrate()
 #
-print('# WD 1057+719 Predicted Count Rates')
+print('# Predicted Count Rates for {}'.format(target))
 print('#   F090W     F115W     F140M     F150W     F158M     F200W     F277W'
       '     F356W     F380M     F430M     F444W     F480M')
 print('%.3e %.3e %.3e %.3e %.3e'

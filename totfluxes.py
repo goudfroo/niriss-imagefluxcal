@@ -74,7 +74,7 @@ tab = Table([filters, totcounts, toterr],
             names=('Filter', 'CountRate', 'CountRateErr'))
 tab['CountRate'].info.format = '12.3e'
 tab['CountRateErr'].info.format = '12.3e'
-tab.write(outtab, format='ascii', overwrite=True)
+tab.write(outtab, format='ascii.fixed_format', delimiter=None, overwrite=True)
 # Print out results by filter to Terminal. If results present for all filters,
 # then print them after transposing (much more compact).
 if len(totcounts) == len(filters):

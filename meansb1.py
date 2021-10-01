@@ -81,4 +81,4 @@ tab.add_column(avsberr, name='av_sberr')
 tab['av_sb'].info.format = '10.5f'
 tab['av_sberr'].info.format = '10.5f'
 
-tab.write(outtab, format='ascii', overwrite=True)
+tab.write(outtab, format='ascii.fixed_width', delimiter=None, overwrite=True)
